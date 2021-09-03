@@ -1,0 +1,6 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": ["src/**/*", "target/typescript-generator/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}
